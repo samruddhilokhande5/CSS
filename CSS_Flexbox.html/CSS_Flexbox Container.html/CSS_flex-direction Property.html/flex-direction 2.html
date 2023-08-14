@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: column-reverse;
+            background-color: hsl(348, 85%, 54%);
+        }
+
+        .flex-container>div {
+            background-color: azure;
+            width: 180px;
+            margin: 35px;
+            text-align: center;
+            line-height: 66px;
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>The flex-direction Property</h1>
+    <p>The "flex-direction: column-reverse;" stacks the flex items vertically (
+        bottom to top ): </p>
+    <div class="flex-container">
+        <div>Text 1</div>
+        <div>Text 2</div>
+        <div>Text 3</div>
+        <div>Text 4</div>
+        <div>Text 5</div>
+    </div>
+</body>
+
+</html>
