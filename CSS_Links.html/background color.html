@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        a:link {
+            background-color: lightcoral;
+            text-decoration: none;
+            color: red;
+            /*unvisited*/
+        }
+
+        a:visited {
+            background-color: lime;
+            text-decoration: none;
+            color: green;
+        }
+
+        a:hover {
+            background-color: lightskyblue;
+            text-decoration:underline;
+            color: black;
+        }
+
+        a:active {
+            background-color: hotpink;
+            text-decoration: underline;
+            color: blue;
+        }     
+        </style>
+    </head>
+<body>
+    <h2>
+        Styling a link with background-color property
+    </h2>
+    <p>
+        <b>
+            <a href="https://web.whatsapp.com/" target="_blank">This is a link</a>
+            <br>
+            <br>
+            <a href="https://www.food.com/" target="_blank">This is another link</a>
+        </b>
+    </p>
+    <p>
+        <b>Note:</b>a:hover MUST come after a:link and a:visited in the CSS definition in order to be effective.
+    </p>
+    <p>
+        <b>Note:</b>a:active MUST come after a:hover in the CSS definition in order to be effective.
+    </p>
+</body>
+</html>
